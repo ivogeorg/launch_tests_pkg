@@ -35,7 +35,12 @@ ros2 run <pkg_name> <executable_name> --ros-args arg1=:some_value1 arg2=:some_va
 
 #### 3 versions of launch
 
+| Robot closeup | Robot LIDAR |
+| --- | --- |
+| ![Robot closeup](assets/robot_closeup.png) | ![Robot LIDAR](assets/robot_laser.png) |  
+  
 | Language | Main | Rviz2 | Move robot | Exe source |
 | --- | --- | --- | --- | --- |
 | Python | [python_main.launch.py](launch/python_main.launch.py) | [start_rviz_with_arguments.launcy.py](launch/start_rviz_with_arguments.launcy.py) | [move_with_arguments.launch.py](launch/move_with_arguments.launch.py) | [move_robot_with_arguments.cpp](src/move_robot_with_arguments.cpp) |
 | XML | [xml_main.launch.py](launch/xml_main.launch.py) | [start_rviz_with_arguments.launcy.py](launch/start_rviz_with_arguments.launcy.py) | [move_with_arguments.launch.xml](launch/move_with_arguments.launch.xml) | [move_robot_with_params.cpp](src/move_robot_with_params.cpp) |
+| YAML | [yaml_main.launch.yaml](launch/yaml_main.launch.yaml) | [start_rviz_with_arguments.launcy.py](launch/start_rviz_with_arguments.launcy.py) | [move_with_arguments.launch.yaml](launch/move_with_arguments.launch.yaml) | [move_robot_with_params.cpp](src/move_robot_with_params.cpp) |
